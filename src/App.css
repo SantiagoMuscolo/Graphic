@@ -1,0 +1,37 @@
+body {
+  background-color: #222;
+  color: #fff;
+}
+
+.Graphic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.chart-container {
+  background-color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+}
+
+#chart svg {
+  background-color: #333;
+}
+
+#title {
+  text-align: center;
+}
+
+#tooltip {
+  position: absolute;
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 1.2;
+  white-space: nowrap;
+}
